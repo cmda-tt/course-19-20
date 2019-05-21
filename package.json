@@ -9,8 +9,7 @@
   "bugs": "https://github.com/cmda-tt/course-18-19/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
-    "Laurens"
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
   ],
   "dependencies": {},
   "devDependencies": {
