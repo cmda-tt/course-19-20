@@ -1,3 +1,4 @@
+# As travis knows to run npm test on node projects, this works automatically
 language: node_js
 node_js: node
 deploy:
@@ -6,7 +7,7 @@ deploy:
   target_branch: gh-pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  email: tituswormer@gmail.com
-  name: Titus Wormer
+  email: laurens.aarnoudse@gmail.com
+  name: Laurens
   on:
     branch: website
