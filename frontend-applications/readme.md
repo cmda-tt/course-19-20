@@ -14,8 +14,8 @@
 
 ## Synopsis
 
-In frontend apps (**fa**) you learn how to learn a library, and concretely how
-to load external data and manipulate elements.  You additionally learn about
+In frontend apps (**fa**) you learn how to choose and use a library, and concretely how
+to load external data and use it to dynamically create and manipulate elements.  You additionally learn about
 programming principles like reading and writing documentation.
 
 *   **Course**: Frontend Applications

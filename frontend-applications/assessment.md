@@ -1,18 +1,9 @@
 # [![Assessment 1][banner]][fa]
 
-## Table of Contents
-
-*   [Synopsis](#synopsis)
-*   [Description](#description)
-*   [Assignment](#assignment)
-*   [Goals](#goals)
-*   [Rubric](#rubric)
-
 ## Synopsis
 
 *   **Weight**: 3 ECTS
 *   **Type**: Oral test
-*   **Date**: 14-10
 *   **Resit**: week 49
 *   **Grade**: At least 5.5 to pass this course
 
@@ -26,13 +17,13 @@ We will download and archive your project when it’s due.
 
 ## Assignment
 
-Create a client-side application in JavaScript which dynamically renders data to views.
+Create a client-side application in JavaScript which dynamically renders data to views using either a front-end framework or system created by you.
 Reflect on the merits and costs of frameworks together.
 
 ## Goals
 
 This assessment focusses on [goal 1][g1] (**learn how to create with
-libraries**), [subgoal 1][s1] (**read docs**), [subgoal 2][s2] (**write docs**),
+libraries**), [subgoal 9][s9] (**use libraries**), [subgoal 1][s1] (**read docs**), [subgoal 2][s2] (**write docs**),
 [subgoal 5][s5] (**manipulate elements**), and [subgoal 6][s6] (**load external
 data**).
 
@@ -105,3 +96,5 @@ data**).
 [s5]: ../readme.md#subgoal-5
 
 [s6]: ../readme.md#subgoal-6
+
+[s9]: ../readme.md#subgoal-9
