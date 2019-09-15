@@ -10,7 +10,7 @@
 *   [Goals](#goals)
 *   [Grade](#grade)
 *   [Materials](#materials)
-*   [Stuck?](#stuck?)
+*   [Stuck](#stuck)
 *   [Programme](#programme)
 *   [Conduct](#conduct)
 *   [License](#license)
@@ -141,7 +141,7 @@ In practice you’ll learn to:
 *   🆓 [Command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/)
     (**tutorial**) — Learn how to work at the command-line
 
-## Stuck?
+## Stuck
 
 If you get stuck, follow the following steps:
 
@@ -189,7 +189,7 @@ docs and images are [CC-BY-4.0][].
 
 [university]: https://www.amsterdamuas.com
 
-[cmd-logo]: image/cmd.jpg
+[cmd-logo]: images/cmd.jpg
 
 [coc]: code-of-conduct.md
 
@@ -226,5 +226,7 @@ docs and images are [CC-BY-4.0][].
 [museum]: https://www.volkenkunde.nl/
 
 [slack]: https://cmdinformationdesign.slack.com
+
+[Brightspace]: https://dlo.mijnhva.nl/d2l/home/32180
 
 [lynda-portal]: https://lyndaportal.ict.hva.nl
