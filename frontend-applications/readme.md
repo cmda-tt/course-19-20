@@ -27,26 +27,12 @@ programming principles like reading and writing documentation.
 
 *   **Course**: Frontend Applications
 *   **Credit**: 3 ECTS
-*   **Date**: 08-10 — 19-10
-*   **Location**: [Bijlmerplein 97, 1102 DA, Amsterdam][location]
-*   **Partner**: [Garage2020][g2020]
-*   **Assessment**: [Presentation on 19-10][assessment]
+*   **Date**: 14-10 — 01-10
+*   **Assessment**: [Presentation on 01-10][assessment]
 
 ## Schedule
 
-| Date     | Time          | Activity                                                           |
-| -------- | ------------- | ------------------------------------------------------------------ |
-| 08-10-18 | 12:00 - 13:30 | [Kick off][slides-kick-off]                                        |
-| 08-10-18 | 13:30 - 14:30 | Arjan: Project pitch                                               |
-| 08-10-18 | 14:30 - 17:00 | Neighbourhood                                                      |
-| 09-10-18 | 09:30 - 12:00 | Speaker: [Hay][] on Vue, [Peter][] on React, [Albert][] on Angular |
-| 09-10-18 | 14:00 - 15:10 | [Bootcamp][slides-bootcamp]                                        |
-| 10-10-18 | 09:30 - 10:30 | [Workshop environment][slides-workshop-env]                        |
-| 10-10-18 | 10:30 - 12:00 | Arjan: Project explanation                                         |
-| 15-10-18 | 09:30 - 13:00 | Arjan: Project counselling                                         |
-| 17-10-18 | 09:30 - 11:00 | Speaker: [Nienke][] on when to use a framework                     |
-| 19-10-18 | 12:00 - 17:30 | Final presentations                                                |
-| 19-10-18 | 17:30 - 19:30 | Borrel                                                             |
+To be determined
 
 [banner]: https://cdn.jsdelivr.net/gh/cmda-tt/logo@6b810afa/banner-frontend-applications.svg
 
