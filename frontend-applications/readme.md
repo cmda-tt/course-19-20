@@ -1,12 +1,5 @@
 # ![Frontend Applications][banner]
 
-## Table of Contents
-
-*   [Quote](#quote)
-*   [Inspiration](#inspiration)
-*   [Synopsis](#synopsis)
-*   [Schedule](#schedule)
-
 ## Quote
 
 > ```text
