@@ -1,6 +1,6 @@
 <!-- lint disable no-html-->
 
-# ![Tech Track - Courses 2018-2019][banner]
+# ![Tech Track - Courses 2019-2020][banner]
 
 ## Table of Contents
 
