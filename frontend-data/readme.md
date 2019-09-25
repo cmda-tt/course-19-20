@@ -39,3 +39,9 @@ To be determined
 [inspiration-link]: https://decorrespondent.nl/8085/waarom-amsterdam-wel-een-coentunnel-heeft-en-nog-geen-damesgracht/1030332074310-8ac646fc
 
 [assessment]: ./assessment.md
+
+[leon]: https://twitter.com/dekorteleon
+
+[bregje]: https://twitter.com/BregjeHofstede
+
+[sara]: https://twitter.com/s_r_m_ri_

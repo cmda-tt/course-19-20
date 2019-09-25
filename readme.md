@@ -25,7 +25,7 @@ October 14th until November 29th.
 *   **Coordinator**: [Laurens Aarnoudse][razpudding-gh]
 *   **Lecturers**:
     [Danny de Vries][dandevri-gh] ([**@dandevri**][dandevri-gh]) and
-    [Laurens Aarnoudse][razpudding-mail] ([**@razpudding**][razpudding-gh])
+    [Laurens Aarnoudse][razpudding-gh] ([**@razpudding**][razpudding-gh])
 
 ## Description
 
