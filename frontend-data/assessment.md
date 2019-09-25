@@ -68,15 +68,15 @@ This assessment focusses on all [goals][g] and [subgoals][s].
       <th align="center" scope="row">Process</th>
       <td align="center">Process is partially documented</td>
       <td align="center">Process is properly documented</td>
-      <td align="center">Choices are evaluated and documented; progress is demonstrated</td>
-      <td align="center">Significant progress or iterations are demonstrated</td>
-      <td align="center">💪<br>What you did this course is amazing</td>
+      <td align="center">Choices are evaluated and documented; progress is demonstrated; Work reclects client's needs</td>
+      <td align="center">Significant progress or iterations are demonstrated; Client is happy with the work</td>
+      <td align="center">💪<br>What you did this course is amazing; Teachers and client are in awe of your progress</td>
     </tr>
   </tbody>
 </table>
 
 > **Note**: each of this rubric’s rows is cumulative: for example, to get a 5-6
-> on application, you also need to have a 1-2 and 3-4.
+> on application, you also need to have a 1-2 and 3-4. In addition, each row has to be awarded with a >=5.5 in order to receive a passing grade for this course.
 
 <!--lint enable no-html maximum-line-length-->
 
