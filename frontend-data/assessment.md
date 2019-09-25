@@ -77,6 +77,7 @@ This assessment focusses on all [goals][g] and [subgoals][s].
 
 > **Note**: each of this rubric’s rows is cumulative: for example, to get a 5-6
 > on application, you also need to have a 1-2 and 3-4. In addition, each row has to be awarded with a >=5.5 in order to receive a passing grade for this course.
+> Bonus points can be rewarded when you've helped fellow students progress. But only if you already have a passing grade.
 
 <!--lint enable no-html maximum-line-length-->
 
