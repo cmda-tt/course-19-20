@@ -1,0 +1,8 @@
+#+ endpoint: https://api.data.netwerkdigitaalerfgoed.nl/datasets/hackalod/GVN/services/GVN/sparql
+#+ summary: Select all items from a specific year
+
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT * WHERE {
+  ?sub dct:created "1893" .
+} LIMIT 1000
