@@ -1,0 +1,9 @@
+#+ endpoint: https://api.data.netwerkdigitaalerfgoed.nl/datasets/hackalod/GVN/services/GVN/sparql
+#+ summary: Find all results matching a certain format, in this case "gravure"
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX gvn: <https://data.netwerkdigitaalerfgoed.nl/hackalod/gvn/>
+
+SELECT * WHERE {
+  ?sub dct:format gvn:gravure .
+} LIMIT 1000

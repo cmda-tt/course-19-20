@@ -1,5 +1,5 @@
 #+ endpoint: https://api.data.netwerkdigitaalerfgoed.nl/datasets/hackalod/GVN/services/GVN/sparql
-#+ summary: Select all items from a specific year
+#+ summary:  Find all results matching a certain year, in this case 1893
 
 PREFIX dct: <http://purl.org/dc/terms/>
 
