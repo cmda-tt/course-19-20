@@ -1,4 +1,4 @@
-#+ summary: Get all Predicates
+#+ summary: Get all possible Predicates from LOD
 #+ endpoint: any
 
 SELECT ?pred COUNT(?pred) AS ?predCount WHERE {
