@@ -24,8 +24,30 @@ programming principles like reading and writing documentation.
 *   **Assessment**: [Presentation on 01-10][assessment]
 
 ## Schedule
+> An open value in a cell indicates the same value as above.
+> Schedule is subject to change.
+Attendance is required **daily** from 9:30-17:00
 
-To be determined
+| Date  |    Time   |      Location | Activity                                |
+|-------|:---------:|--------------:|-----------------------------------------|
+| 14-10 |    9:20   |  Tropenmuseum | Kickoff!                                |
+| 15-10 |    9:30   | Gerbrandszaal | Recap block tech                        |
+| 15-10 |   12:00   |               | Framework intro                         |
+| 15-10 | afternoon |               | Lab                                     |
+| 16-10 |    9:30   |               | Lab                                     |
+| 16-10 |    noon   |               | SPARQL workshop by Ivo                  |
+| 16-10 | afternoon |               | Concept check by Cindy                  |
+| 17-10 | 9:30      |               | Lab                                     |
+| 18-10 | noon      |               | Formative evaluation                    |
+| 18-10 | 16:00     |               | Explore leiden! 🍻                       |
+| 21-10 | 🤷🏼‍♂️       | 🏝             | Holidays!                               |
+| 28-10 | 9:30      | Gerbrandszaal | Lab                                     |
+| 29-10 | 🤷🏼‍♂️       |               | Guest lecture on static site generators |
+| 30-10 | 🤷🏼‍♂️       |               | Guest lecture on Frameworks             |
+| 31-10 | afternoon |               | Group discussion on using Frameworks    |
+| 01-11 | 10:00     |               | Client evaluation of project            |
+| 01-11 | 13:37     |               | Summative evaluation                    |
+| 01-11 | 16:00     | Bar           | Celabratory drinks! 👏                   |
 
 [banner]: https://cdn.jsdelivr.net/gh/cmda-tt/logo@6b810afa/banner-frontend-applications.svg
 
