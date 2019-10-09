@@ -1,0 +1,8 @@
+#+ endpoint: https://api.data.netwerkdigitaalerfgoed.nl/datasets/hackalod/GVN/services/GVN/sparql
+#+ summary: Find all possible 'themes' using 'distinct'
+
+PREFIX xml: <http://xmlns.com/foaf/0.1/>
+
+SELECT distinct ?obj WHERE {
+  ?subj xml:theme  ?obj .
+} LIMIT 1000
