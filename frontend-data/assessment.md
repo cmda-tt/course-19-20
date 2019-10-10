@@ -68,7 +68,7 @@ This assessment focusses on all [goals][g] and [subgoals][s].
       <th align="center" scope="row">Process</th>
       <td align="center">Process is partially documented</td>
       <td align="center">Process is properly documented</td>
-      <td align="center">Choices are evaluated and documented; progress is demonstrated; Work reclects client's needs</td>
+      <td align="center">Choices are evaluated and documented; progress is demonstrated; Work reflects client's needs</td>
       <td align="center">Significant progress or iterations are demonstrated; Client is happy with the work</td>
       <td align="center">💪<br>What you did this course is amazing; Teachers and client are in awe of your progress</td>
     </tr>
