@@ -30,7 +30,7 @@ Attendance is required **daily** from 9:30-17:00
 
 | Date   |    Time   |      Location | Activity                                |
 |--------|:---------:|--------------:|-----------------------------------------|
-| 14-10  |    9:20   |  Tropenmuseum | Kickoff!                                |
+| 14-10  |    9:20   |  Tropenmuseum | [Kickoff](kickoff-slides)!                                |
 | 15-10  |    9:30   | Gerbrandszaal | Recap block tech                        |
 | 15-10  |   12:00   |               | Framework intro                         |
 | 15-10  | afternoon |               | Lab                                     |
@@ -58,3 +58,5 @@ Attendance is required **daily** from 9:30-17:00
 [inspiration-author]: https://github.com/nbremer
 
 [assessment]: ./assessment.md
+
+[kickoff-slides]: https://docs.google.com/presentation/d/1E_O4o8KoSwAIvWOoB03j4EiTGlZ61myGEVJB7Y_5x6c
