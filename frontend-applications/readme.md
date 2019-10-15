@@ -44,8 +44,8 @@ Attendance is required **daily** from 9:30-17:00
 | 15-10  |   12:00   |               | Framework intro                         |
 | 15-10  | afternoon |               | Lab                                     |
 | 16-10  |    9:30   |               | Lab                                     |
-| 16-10  |    13:30   |               | SPARQL workshop by Ivo                  |
-| 16-10  | afternoon |               | Concept check by Cindy                  |
+| 16-10  | 13:00 |               | Concept check by Cindy                  |
+| 16-10  |    14:00   |               | SPARQL workshop by Ivo                  |
 | 17-10  | 9:30      |               | Lab                                     |
 | 18-10  | noon      |               | Formative evaluation                    |
 | 18-10  | 16:00     |               | Explore leiden! 🍻                       |
