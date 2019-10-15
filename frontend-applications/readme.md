@@ -23,6 +23,15 @@ programming principles like reading and writing documentation.
 *   **Date**: 14-10 — 01-10
 *   **Assessment**: [Presentation on 01-10][assessment]
 
+## Asignment
+
+
+## Deliverables
+- A repo with the name 'frontend-applications' on Github with
+- A front-end app that fits the [rubric][[assessment#rubric]
+- A readme that describes the app (concept, install notes, image, etc)
+- A wiki which documents your process (what did you do, what did you learn, which design decisions, etc.)
+
 ## Schedule
 > An open value in a cell indicates the same value as above.
 > Schedule is subject to change.
