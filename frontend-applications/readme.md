@@ -24,7 +24,7 @@ programming principles like reading and writing documentation.
 *   **Assessment**: [Presentation on 01-10][assessment]
 
 ## Asignment
-
+Create an app that's valuable to our client that renders dynamic content from a json source.
 
 ## Deliverables
 - A repo with the name 'frontend-applications' on Github with
