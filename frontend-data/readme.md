@@ -29,8 +29,24 @@ refactoring code.
 *   **Assessment**: [Presentation on 29-11][assessment]
 
 ## Schedule
+> An open value in a cell indicates the same value as above.
+> Schedule is subject to change.
+Attendance is required **daily** from 9:30-17:00
 
-To be determined
+| Date   |  Time | Activity                             |
+|--------|:-----:|--------------------------------------|
+| 18-11  |  9:30 | Data manipulation basics, concepting |
+| 19-11  |  9:30 | Client concept check                 |
+| 20-11  |  9:30 | Tech Support                         |
+| 21-11  |  9:30 | Lab                                  |
+| 22-11  |  9:30 | Checkup, drinks                      |
+| 25-11  |  9:30 | Lab                                  |
+| 26-11  |  9:30 | Peer review                          |
+| 27-11  |  9:30 | Support                              |
+| 28-11  |  9:30 | Lab                                  |
+| 29-11  | 13:00 | Summative Evaluation                 |
+| 29-11  | 15:30 | Display work in market setting       |
+| 29-11  | 16:30 | Drinks! 🍹                            |
 
 [banner]: https://cdn.jsdelivr.net/gh/cmda-tt/logo@6b810afa/banner-frontend-data.svg
 
