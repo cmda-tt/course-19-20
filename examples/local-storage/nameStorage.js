@@ -4,8 +4,10 @@ const nameInput = document.getElementById('nameInput')
 const btn = document.getElementById('submitBtn')
 btn.addEventListener("click", storeName)
 
+//Check if theres a stored 'name' value
 nameInput.value = checkStorage('name')
 
+//Returns the stored name if it exists, otherwise an  empty string
 function checkStorage(prop){
 	//Check if it exists
 	if (storage.getItem(prop)){
@@ -14,11 +16,13 @@ function checkStorage(prop){
 	return ""
 }
 
+//Stores the name
 function storeName(){
 	let filledInName = document.getElementById('nameInput').value
 	console.log(filledInName)
 	storage.setItem('name', filledInName)
 }
+
 //You can also store more complex info ones it's converted to Strings like so
 let data = [{
       id: "257651",
@@ -58,4 +62,4 @@ parsedData[0].teachers = ["Laurens", "Titus"]
 //Then convert the object back to a string and save it
 //Warning: This is not very efficient so avoid storing large strings and updating them often!
 storage.setItem("somedata", JSON.stringify(parsedData))
-console.log("The teachers: ", parsedData[0].teachers)
+//console.log("The teachers: ", parsedData[0].teachers)
