@@ -6,7 +6,7 @@
 - Help a peer by giving feedback on their work
 
 ## Preparation
-- Read the rubric? Is everything clear (data can be changed means source can change)
+- [Read the rubric](https://github.com/cmda-tt/course-19-20/blob/master/frontend-applications/assessment.md#rubric). Is everything clear? (data can be changed means source can change)
 - Check your own readme and wiki and suplement where necessary
 - Pair up in groups of two
 
