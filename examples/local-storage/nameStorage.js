@@ -58,7 +58,7 @@ storage.setItem("somedata", JSON.stringify(data))
 //If you want to retrieve the info you'll have to convert the string back to json
 let parsedData = JSON.parse(storage.getItem("somedata"))
 //If you want to update some value in localstorage, update the parsed json object
-parsedData[0].teachers = ["Laurens", "Titus"]
+parsedData[0].teachers = ["Laurens", "Danny"]
 //Then convert the object back to a string and save it
 //Warning: This is not very efficient so avoid storing large strings and updating them often!
 storage.setItem("somedata", JSON.stringify(parsedData))

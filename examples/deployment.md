@@ -2,6 +2,7 @@
 
 ## Github pages
 *If the root folder of your app has the flat html, css and js files*
+
 Go to your repo's settings at https://github.com/username/your-repo/settings
 Select the master branch as source in the GH pages section
 
@@ -13,6 +14,7 @@ You can configure your build tool to put the compiled files into a docs folder o
 
 ## Github pages - branch
 *If your flat files are in a docs folder in the root of your repo*
+
 Create a new branch in your repo called exactly `gh-pages`. 
 Put the compiled files of your app in this branch and commit only those files.
 After you've updated that branch, switch back to the master branch to continue working. Anytime you want to update the live version of your app, build the flat files and update them in the gh-pages branch. [example](https://github.com/cmda-tt/course-19-20/tree/gh-pages)
@@ -20,6 +22,8 @@ After you've updated that branch, switch back to the master branch to continue w
 If you want to automate this process, you can use tools like travis to automatically push your files to the gh-pages branch anytime you build your app. [example](https://github.com/cmda-tt/course-19-20/blob/website/.travis.yml)
 
 See the [Github Pages help page](https://help.github.com/en/github/working-with-github-pages/about-github-pages) for more info on Github pages configuration.
+
+**It might take a couple minutes before github pages is live**
 
 ## Deployment services
 *If you don't to host your app on Github*
