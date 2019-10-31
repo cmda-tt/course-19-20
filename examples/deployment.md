@@ -27,7 +27,7 @@ See the [Github Pages help page](https://help.github.com/en/github/working-with-
 
 ## Deployment services
 *If you don't to host your app on Github*
-Some services like [Heroku](https://www.heroku.com/) or [Zeit](https://zeit.co/) offer simple ways to host your app.
+Some services like [Heroku](https://www.heroku.com/), [Zeit](https://zeit.co/) or [Netlify](https://www.netlify.com/) offer simple ways to host your app.
 These services often have an option to listen to changes on your master branch and auto deploy them to your app on their server using webhooks.
 Alternatively you can use CLI tools to deploy your app on their platform (less cool).
 the free options of these platforms often mean your app will shut down if it hasn't been used in the last half hour or so.
