@@ -1,10 +1,10 @@
-#String Manipulation
+# String Manipulation
 
 This example shows how to use functions to manipulate an array of strings.
 
 The following function takes three parameters, and returns an array where each string has been checked for `oldstring` and been replaced by `newString`.
 
-Here is the explicit version, in ES5 (escept for the `for...of` part). The additional checkStringPosition function was created to demonstrate function reuse.
+Here is the explicit version, in ES5 (except for the `for...of` part). The additional checkStringPosition function was created to demonstrate function reuse.
 ```
 function changeStrings(stringArray, oldString, newString){
     var newArray = []
@@ -33,3 +33,5 @@ function changeStrings(stringArray, oldString, newString){
     return stringArray.map(item => item.replace(oldString,newString))
 }
 ```
+
+> Disclaimer: This was live coded so it might not be the cleanest example possible. If you see a better way to do this feel free to send a PR :)
