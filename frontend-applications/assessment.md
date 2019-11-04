@@ -53,7 +53,7 @@ data**).
     </tr>
     <tr>
       <th align="center" scope="row">Understanding</th>
-      <td align="center">There is substantial own code and the student can eplain how the project was created</td>
+      <td align="center">There is substantial own code and the student can explain how the project was created</td>
       <td align="center">The student can explain some parts of their code, how some parts works together, and some technical choices</td>
       <td align="center">The student can explain every part of their code; the project is structured logically. The student can explain the merits of frameworks inr elation to their project</td>
       <td align="center">The project is complex but can easily be understood; student used or wrote code not covered in class that was carefully chosen while weighing alternatives</td>
