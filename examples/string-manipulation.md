@@ -5,7 +5,7 @@ This example shows how to use functions to manipulate an array of strings.
 The following function takes three parameters, and returns an array where each string has been checked for `oldstring` and been replaced by `newString`.
 
 Here is the explicit version, in ES5 (except for the `for...of` part). The additional checkStringPosition function was created to demonstrate function reuse.
-```
+```javascript
 function changeStrings(stringArray, oldString, newString){
     var newArray = []
     var currentString = ""
@@ -28,7 +28,7 @@ changeStrings(["","frontend","htttp://frontend"],"frontend","functional")
 ```
 
 Here is the ES6 version
-```
+```javascript
 function changeStrings(stringArray, oldString, newString){ 
     return stringArray.map(item => item.replace(oldString,newString))
 }
