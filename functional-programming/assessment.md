@@ -48,16 +48,16 @@ and [subgoal 9][s9] (**use libraries**).
       <th align="center" scope="row"><strong>Application</strong> of subject matter</th>
       <td align="center">Git, npm, <strong>and d3</strong> are used; the project runs without errors; data is loaded with d3; there is a representation of data</td>
       <td align="center"><strong>Data is rendered with d3</strong>; interpreting the representation is easier that interpreting the data itself</td>
-      <td align="center"><strong>d3 is used to clean data and make a dynamic representation; data is functionally transformed</strong></td>
-      <td align="center">Representation and <strong>use of d3</strong> go beyond an example: there are demonstrable additions <strong>like a well-chosen scale</strong></td>
+      <td align="center"><strong>A functional pattern is used to clean and transform data. D3 is used to make a dynamic representation</strong></td>
+      <td align="center">Representation and <strong>use of d3</strong> go beyond an example: there are self-built additions</td>
       <td align="center">😱<br>The way the student applies subject matter  is more advanced than what they were taught in class; let’s switch places</td>
     </tr>
     <tr>
       <th align="center" scope="row">Understanding</th>
       <td align="center">There is substantial own code; the student can explain the code that exists</td>
       <td align="center">The student can explain some parts of their code, how some parts works together, and some technical choices</td>
-      <td align="center">The student can explain every part of their code, how everything works together, and why software is used instead of alternatives; the project is structured logically</td>
-      <td align="center">The project is complex but can easily be understood; alternatives to software covered in class was used that were great choices</td>
+      <td align="center">The student can explain every part of their code, how everything works together, and why patters are used instead of alternatives; the project is structured logically</td>
+      <td align="center">The project is complex but can easily be understood; alternatives to patterns covered in class was used that were great choices</td>
       <td align="center">🤓<br>The student deeply understands JavaScript and a geeky / nerdy conversation can be held about this</td>
     </tr>
     <tr>
