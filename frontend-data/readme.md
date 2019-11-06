@@ -44,7 +44,7 @@ Attendance is required **daily** from 9:30-17:00
 | 26-11  |  9:30 | Peer review                          |
 | 27-11  |  9:30 | Support                              |
 | 28-11  |  9:30 | Lab                                  |
-| 29-11  | 13:00 | Summative Evaluation                 |
+| 29-11  |  9:30 | Summative Evaluation @TTH01A04/TTH01A40 |
 | 29-11  | 15:30 | Display work in market setting       |
 | 29-11  | 16:30 | Drinks! 🍹                            |
 
