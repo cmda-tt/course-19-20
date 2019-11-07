@@ -2,10 +2,10 @@
 
 Here are some examples of functional programming patterns. Each pattern contains an `.md` file with an in-depth explanation and additional resources.
 
-* [Impure vs Pure functions](/impure.md)
-* [Immutability](/immutability.md)
-* [Higher-order functions](/ho-functions.md)
-* [Composition](/composition.md)
+* [Impure vs Pure functions](/examples/functional-patterns/impure.md)
+* [Immutability](/examples/functional-patterns/immutability.md)
+* [Higher-order functions](/examples/functional-patterns/ho-functions.md)
+* [Composition](/examples/functional-patterns/composition.md)
 
 ## Programming paradigm
 *Functional programming* is a [programming paradigm][paradigm]. A way to classify programming languages based on their features. JavaScript supports **multiple paradigms** but you'll probably use either imperative (object-oriented) or declarative (functional). Remember that functional programming are just a collection of  patterns and principles written with JavaScript.
