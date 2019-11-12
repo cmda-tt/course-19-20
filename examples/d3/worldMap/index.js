@@ -64,9 +64,7 @@ function plotLocations() {
         .enter()
         .append('circle')
         .attr('class', 'circles')
-        .attr('cx', function(d) {
-          return projection([d.long, d.lat])[0]
-        })
+        .attr('cx', d =>projection([d.long, d.lat])[0])
         .attr('cy', function(d) {
           return projection([d.long, d.lat])[1]
         })
