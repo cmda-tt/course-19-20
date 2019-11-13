@@ -5,6 +5,11 @@ This is a very basic example demonstrating how to do this. Make sure you underst
 
 [Livelink](https://beta.vizhub.com/Razpudding/f99e6547637e4b029265fc053221b43b?edit=files&file=index.js)
 
+## Transforming data 👨🏻‍🏭👩🏻‍🏭
+This example shows how to transform dating using d3's nest.
+
+[Livelink](https://beta.vizhub.com/Razpudding/2e039bf6e39a421180741285a8f735a3)
+
 ## Databinding 🔄
 This is a basic example that doesn't use scales
 
@@ -24,3 +29,8 @@ This example shows how to load data into d3 to create a worldmap
 Still in progress ;)
 
 [Livelink](https://beta.vizhub.com/Razpudding/b708d8950514436fae6dee08a0f6a5f2)
+
+## Working with time ⌚️
+Times can be tough, that's why I wrote this article explaing how to work with time in d3 :)
+
+[Livelink](https://observablehq.com/@razpudding/d3time)
