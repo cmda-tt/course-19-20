@@ -30,6 +30,13 @@ Still in progress ;)
 
 [Livelink](https://beta.vizhub.com/Razpudding/b708d8950514436fae6dee08a0f6a5f2)
 
+## Worldmap with modules and nested data 🐣
+This example uses modules to keep the main code file clean. The modules can be reused in other projects.
+It also uses nested data so we can target each of the countries in our data separately.
+It's still a WIP and subject to change.
+
+[Livelink](https://beta.vizhub.com/Razpudding/b42c2072180348658542212b91614b82)
+
 ## Working with time ⌚️
 Times can be tough, that's why I wrote this article explaing how to work with time in d3 :)
 
