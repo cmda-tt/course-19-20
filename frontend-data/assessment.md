@@ -42,10 +42,10 @@ This assessment focusses on all [goals][g] and [subgoals][s].
   <tbody>
     <tr>
       <th align="center" scope="row"><strong>Application</strong> of subject matter</th>
-      <td align="center">Git, npm, <strong>and d3 are used</strong>; the project runs without errors; <strong>data is loaded with d3</strong>; there is a representation of data</td>
+      <td align="center">Git <strong>and d3 are used</strong>; the project runs without errors; <strong>data is loaded with d3</strong>; there is a representation of data</td>
       <td align="center"><strong>Data is rendered with d3</strong>; interpreting the representation is easier that interpreting the data itself</td>
-      <td align="center"><strong>d3 is used to clean data and make an interactive representation; Data is transformed</strong></td>
-      <td align="center">Representation and <strong>use of a d3</strong> go beyond an example: there are demonstrable additions <strong>like well-chosen interaction methods</strong></td>
+      <td align="center">Data is transformed; the data in the visualization is changed using the d3 update pattern to make an <strong>interactive representation.</strong></td>
+      <td align="center">Representation and <strong>use of d3</strong> go beyond an example: there are demonstrable additions like well-chosen interaction methods, animation, multiple chart types, or user input</td>
       <td align="center">😱<br>The way the student applies subject matter  is more advanced than what they were taught in class; let’s switch places</td>
     </tr>
     <tr>
