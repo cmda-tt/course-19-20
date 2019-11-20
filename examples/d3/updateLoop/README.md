@@ -17,7 +17,7 @@ The vriables can be chosen through a dropdown menu resulting in a rerendering of
 
 ## Notes
 - Note that d3 has a new way of handling enter, update and exit explicitly as explained in [this article](https://www.freecodecamp.org/news/how-to-work-with-d3-jss-general-update-pattern-8adce8d55418/).
-
+- The options in the form are generated from the data using a data join
 
 ## Inspiration
 - [Freecodecamp article on the update pattern](https://www.freecodecamp.org/news/how-to-work-with-d3-jss-general-update-pattern-8adce8d55418/)

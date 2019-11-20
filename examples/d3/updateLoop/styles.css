@@ -3,23 +3,11 @@ body {
   overflow: hidden;
 }
 
-.sphere {
-  fill: black;
-}
-
-.country {
-  fill: white;
-  stroke: black;
-  stroke-opacity: 0.1;
+.bar {
+  fill: Darkmagenta;
 }
 
 svg {
   width: 960px;
   height: 500px;
-}
-
-circle {
-  fill: white;
-	stroke: black;
-  stroke-width: .5;
 }
