@@ -7,10 +7,10 @@ export async function prepareData(url){
   
   //Load the data and return a promise which resolves with said data
 	let data = await loadData(url)
-  // console.log("rawData: ", data)
+  console.log("rawData: ", data)
   //Filter out entries that don't have the main variable we're using
   data = data.filter(entry => filterData(entry, "preference"))
-  // console.log("filteredData", data)
+  console.log("filteredData", data)
   //Clean data
 	data = data.map(cleanData)
   // console.log("cleanedData: ", data)
@@ -38,6 +38,7 @@ function transformData(source){
         brothersAvg: d3.mean(d.map(correspondent => correspondent.brothers)),
         brothersTotal: d3.sum(d.map(correspondent => correspondent.brothers)),
         sistersAvg: d3.mean(d.map(correspondent => correspondent.sisters)),
+        sistersTotal: d3.sum(d.map(correspondent => correspondent.sisters)),
         heightAvg: d3.mean(d.map(correspondent => correspondent.height)),
         healthAvg: d3.mean(d.map(correspondent => correspondent.health)),
         stressAvg: d3.mean(d.map(correspondent => correspondent.stress)),
@@ -52,7 +53,7 @@ function transformData(source){
 
 //Returns true for each row that has something filled in for the given property
 function filterData(row, property){
- return row[property] != "" && row[property] != undefined
+ return (row[property] != "" && row[property] != undefined)
 }
 
 //This function returns properly typed properties for our data

@@ -41,3 +41,14 @@ It's still a WIP and subject to change.
 Times can be tough, that's why I wrote this article explaing how to work with time in d3 :)
 
 [Livelink](https://observablehq.com/@razpudding/d3time)
+
+## Interactive barchart through update loop - y-axis 📊
+In this visualization, the data that's rendered in the view changes because of user interaction
+
+[Livelink](https://beta.vizhub.com/Razpudding/4a61de4a4034423a98ae79d0135781f7?edit=files&file=index.js)
+
+## Interactive barchart through update loop - both axes 🎩
+An improved version of the previous barchart where both axes update!
+This one needs to use enter and exit in the update function becaus the number of bars changes.
+
+[Livelink](https://beta.vizhub.com/Razpudding/0e37e2146acf4a8db9a55f6f3509f090?edit=files&file=index.html)

@@ -18,39 +18,53 @@ const group = svg
 // Scales
 const x = d3.scaleBand().padding(0.2)
 const y = d3.scaleLinear()
-
+// Global data variable
 let data
-//the current variable the y axis is set on
+//The initial variable the y axis is set on
 let yVar =  "biggestExpenseAvg"//"biggestExpenseAvg" //  "sistersAvg" //"heightAvg"
 
 makeVisualization()
-// Our main function which runs other function to make a visualization
+// Our main function which runs other functions to make a visualization
 async function makeVisualization(){
   //Use the prepareData module to get and process our data
   data = await prepareData(endpoint)
   console.log("Transformed data:", data)
-  const fields = Object.keys(data[0].value);
+	const fields = Object.keys(data[0].value);
   console.log(fields)
   //Let's set up our scales in a separate function
   setupInput(fields)
-  setupScales()
-  console.log(setupAxes())
-  
-  drawBars(group)
+	setupScales()
+  setupAxes()
+  drawBars()
 }
 
-//Plot each location on the map with a circle
-function drawBars(container) {
-   const bars = container
+//Draw the initial bars
+function drawBars() {
+   const bars = group
     .selectAll('.bar')
     .data(data)
     .enter()
     .append('rect')
     .attr('class', 'bar')
-    .attr('x', d => x(d.key))
+   	.attr('x', d => x(d.key))
     .attr('y', d => y(d.value[yVar]))
     .attr('width', x.bandwidth())
     .attr('height', d => height - y(d.value[yVar]))
+}
+
+//This function will change the graph when the user selects another variable
+function selectionChanged(){
+  //'this' refers to the form element!
+  console.log("Changing graph to reflect this variable", this.value)
+	yVar = this.value
+  setupScales()
+  //y.domain([0, d3.max( data.map(preference => preference.value[yVar]) )] );
+  
+  svg.selectAll('.bar')
+    .attr('y', d => y(d.value[yVar]))
+    .attr('height', d => height - y(d.value[yVar]))
+  svg.select('.axis-y')
+      .call(d3.axisLeft(y).ticks(10))
 }
 
 //Set up the scales we'll use
@@ -61,19 +75,18 @@ function setupScales(){
   y.domain([0, d3.max( data.map(preference => preference.value[yVar]) )] )
   x.rangeRound([0, width]);
   y.rangeRound([height, 0]);
-  // console.log(y.domain())
 }
 
+//Attach x and y axes to our svg
 function setupAxes(){
-  const xAxis = group
+  group
     .append('g')
     .attr('class', 'axis axis-x')
-    .call(d3.axisBottom(x)).attr('transform', 'translate(0,' + height + ')')
-  const yAxis = group
+  	.call(d3.axisBottom(x)).attr('transform', 'translate(0,' + height + ')')
+  group
     .append('g')
     .attr('class', 'axis axis-y')
-    .call(d3.axisLeft(y).ticks(10))
-  return xAxis
+  	.call(d3.axisLeft(y).ticks(10))
 }
 
 //This awesome function makes dynamic input options based on our data!
@@ -91,21 +104,4 @@ function setupInput(fields){
     .attr('value', d => d)
     .text(d => d) 
   // console.log("form",form)
-}
-
-//This function will change the graph when the user selects another variable
-function selectionChanged(){
-  console.log("Changing graph to reflect this variable", this.value)
-  yVar = this.value
-  
-  y.domain([0, d3.max( data.map(preference => preference.value[yVar]) )] );
-  
-  svg.selectAll('.bar')
-    .attr('x', d => x(d.key))
-    .attr('y', d => y(d.value[yVar]))
-    .attr('width', x.bandwidth())
-    .attr('height', d => height - y(d.value[yVar]))
-  svg.select('.axis-y')
-      .call(d3.axisLeft(y).ticks(10))
-      .selectAll('g')
 }
