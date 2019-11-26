@@ -24,7 +24,6 @@
     + plagiarism and acknowledgements
 - Read the wiki, can you follow the datacleaning and transforming process?
   + Is the update pattern (data flow) documented?
-  + (link to) functional pattern 
 
 ### Concept
 
